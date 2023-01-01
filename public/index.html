@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Portfolio de Alfredo Pinkus</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" /> -->
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -24,10 +24,10 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
   </head>
 
-  <body style="background-color:antiquewhite;">
+  <body style="background-color:#f8f9fa;">
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
         <!-- Container wrapper -->
         <div class="container">
           <!-- Toggle button -->
@@ -61,28 +61,13 @@
     </li>
   </ul>
   <!-- Left links -->
-
-  <!-- Social icons -->
-   <!-- Social icons -->
-  
-
-  
 </div>
+
 <!-- Collapsible wrapper -->
 
           <!-- Right elements -->
           <div class="d-flex align-items-center">
-            <!-- Icon -->
-            <a
-              class="text-reset me-3"
-              href="https://www.linkedin.com/in/alfredopinkus/"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-
-            <!-- Notifications -->
-
+            
             <!-- Avatar -->
             <div class="dropdown">
               <a
@@ -97,7 +82,7 @@
                   src="img\Foto CV.jpg"
                   class="rounded-circle"
                   height="50"
-                  alt="Black and White Portrait of a Man"
+                  alt="Avatar de Alfredo"
                   loading="lazy"
                 />
               </a>
@@ -106,10 +91,20 @@
                 aria-labelledby="navbarDropdownMenuAvatar"
               >
                 <li>
-                  <a class="dropdown-item" href="#">My profile</a>
+                  <a class="dropdown-item" href="#about">Mi perfil</a>
                 </li>
               </ul>
             </div>
+
+            <!-- Icon -->
+            <a
+              class="text-reset m-3"
+              href="https://www.linkedin.com/in/alfredopinkus/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+
           </div>
           <!-- Right elements -->
         </div>
@@ -302,14 +297,14 @@
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="card">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                  <img src="img\calculo-areas.jpg"  class="img-fluid"/>
+                  <img src="img\calculo-areas (Copy).jpg"  class="img-fluid"/>
                   <a href="https://area-figuras.web.app/" target="_blank">
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                   </a>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Calculo de áreas</h5>
-                  <p class="card-text text-start">Aplicación hecha en JS para calcular el área y perímetro de tríangulos y circunferencias</p>
+                  <p class="card-text text-start">Aplicación hecha en JS para calcular el área y perímetro de tríangulos y circunferencias.</p>
                   <a href="https://area-figuras.web.app/" class="btn btn-primary m-1" target="_blank">Áreas</a>
                   <!-- Boton de Github de la tarjeta -->
                   <a  class="btn text-white btn-floating m-1"
@@ -329,14 +324,14 @@
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="card">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                  <img src="img\Calculadora-propinas.jpg" class="img-fluid "/>
+                  <img src="img\Calculadora-propinas (Copy).jpg" class="img-fluid "/>
                   <a href="https://calculadora-propina.web.app/ " target="_blank">
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                   </a>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Cálculo Propina</h5>
-                  <p class="card-text text-start">Aplicación hecha en JS para calcular cuanto tiene que pagar cada comensal incluida la propina</p>
+                  <p class="card-text text-start">Aplicación hecha en JS para calcular cuanto tiene que pagar cada comensal incluida la propina.</p>
                   <a href="https://calculadora-propina.web.app/ " target="_blank" class="btn btn-primary m-1">Propina</a>
                    <!-- Boton de Github de la tarjeta -->
                    <a  class="btn text-white btn-floating m-1"
@@ -356,14 +351,14 @@
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="card">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                  <img src="img\Trivia.jpg" class="img-fluid"/>
+                  <img src="img\Trivia (Copy).jpg" class="img-fluid"/>
                   <a href="https://qatar-trivia.web.app/welcome" target="_blank">
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                   </a>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Trivia Qatar</h5>
-                  <p class="card-text text-start">Trivia del mundial de Qatar hecha en Angular</p>
+                  <p class="card-text text-start">Trivia del mundial de Qatar hecha en Angular. Cada trivia consta de 5 preguntas.</p>
                   <a href="https://qatar-trivia.web.app/welcome" target="_blank" class="btn btn-primary m-1">Trivia</a>
                   <!-- Boton de Github de la tarjeta -->
                   <a  class="btn text-white btn-floating m-1"
@@ -383,15 +378,16 @@
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="card">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                  <img src="img\portfolio.jpg" class="img-fluid"/>
-                  <a href="https://portfolio-alfredo.web.app/" target="_blank">
+                  <img src="img\portfolio (Copy).jpg" class="img-fluid"/>
+                  <a href="#!">
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                   </a>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Portfolio</h5>
-                  <p class="card-text text-start">Portfolio hecho con MDB Bootstrap</p>
-                  <a href="https://portfolio-alfredo.web.app/" target="_blank" class="btn btn-primary m-1">Portfolio</a>
+                  <p class="card-text text-start"> Esta página, es mi portfolio hecho con MDB Bootstrap.</p>
+                  <p>&nbsp;</p>
+                  <a href="#home"  class="btn btn-primary m-1">Portfolio</a>
                   <!-- Boton de Github de la tarjeta -->
                   <a  class="btn text-white btn-floating m-1"
                   style="background-color: #333333"
@@ -408,9 +404,9 @@
 
             <!-- Card: Reloj -->
             <div class="col-lg-4 col-md-12 mb-4">
-              <div class="card">
+              <div class= "card">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                  <img src="img\Reloj Digital.jpg" class="img-fluid"/>
+                  <img src="img\Reloj Digital (Copy).jpg" class="img-fluid"/>
                 
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                   </a>
@@ -420,10 +416,9 @@
                   <p class="card-text text-start">Reloj digital hecho sobre un chip ESP8266. 
                     Programado en C con librerías adicionales. <br>
                     No es necesario ponerlo en hora ya que toma la zona horaria de Internet y la hora GMT de un servidor NTP.
-                    <br> La exactitud es mejor que 1 seg.
-                    <br> Ademas indica alternativamente la temperatura y humedad.
+                    La exactitud es mejor que 1 seg.
+                    <br>Alternativamente indica la temperatura y humedad.
                   </p>
-                  <!-- <a class="btn btn-primary">Reloj</a> -->
                 </div>
               </div>
             </div>
@@ -469,7 +464,20 @@
         <!-- Section: Contact -->
       </div>
     </main>
-    <footer></footer>
+    
+      <footer>
+        <footer class="bg-light text-center text-lg-left">
+          <!-- Copyright -->
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2);"
+          >
+           <strong> © 2022 Copyright: Alfredo Pinkus</strong>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </footer>
+    
   </body>
 
   <!-- MDB -->
